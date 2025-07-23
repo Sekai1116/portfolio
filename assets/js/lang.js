@@ -43,7 +43,20 @@ const translations = {
         placeholderName: "e.g John Doe",
         placeholderEmail: "e.g johndoe@mail.com",
         placeholderPhone: "Phone Number",
-        placeholderMessage: "Write message..."
+        placeholderMessage: "Write message...",
+        missomaWebsite: "Missoma Website",
+        missomaWebsiteDate: "January 2015",
+        uberEatsCloneApp: "Uber Eats Clone App",
+        uberEatsCloneAppDate: "May 2018",
+        dressUpEcommerce: "DressUp E-commerce",
+        dressUpEcommerceDate: "August 2019",
+        sportsBettingBackendUpdate: "Sports Betting Backend Update",
+        sportsBettingBackendUpdateDate: "February 2020",
+        sportsBettingLogicDevelopment: "Sports Betting Logic Development",
+        sportsBettingLogicDevelopmentDate: "July 2020",
+        mobileGameDashboard: "Mobile Game Dashboard",
+        mobileGameDashboardDate: "April 2021",
+        fitbitIonicKit: "Fitbit Ionic Kit",
     },
     jp: {
         name: "ジャイイン",
@@ -89,6 +102,19 @@ const translations = {
         placeholderName: "例：John Doe",
         placeholderEmail: "例：johndoe@mail.com",
         placeholderPhone: "電話番号",
-        placeholderMessage: "メッセージを書く..."
+        placeholderMessage: "メッセージを書く...",
+        missomaWebsite: "ミッソマウェブサイト",
+        missomaWebsiteDate: "2015年1月",
+        uberEatsCloneApp: "ウーバーイーツクローンアプリ",
+        uberEatsCloneAppDate: "2018年5月",
+        dressUpEcommerce: "ドレスアップEコマース",
+        dressUpEcommerceDate: "2019年8月",
+        sportsBettingBackendUpdate: "スポーツベッティングバックエンド更新",
+        sportsBettingBackendUpdateDate: "2020年2月",
+        sportsBettingLogicDevelopment: "スポーツベッティングロジック開発",
+        sportsBettingLogicDevelopmentDate: "2020年7月",
+        mobileGameDashboard: "モバイルゲームダッシュボード",
+        mobileGameDashboardDate: "2021年4月",
+        fitbitIonicKit: "フィットビットイオニックキット"
     }
 };
