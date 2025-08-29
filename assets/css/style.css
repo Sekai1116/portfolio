@@ -1030,6 +1030,57 @@ textarea.input-field {
 
 
 
+/**
+ * CONTRA ICON STYLING
+ */
+
+.icon-contra {
+  color: inherit;
+  filter: brightness(0) saturate(100%) invert(0);
+}
+
+/* Dark theme - make icon white */
+body.dark_theme .icon-contra {
+  filter: brightness(0) saturate(100%) invert(1);
+}
+
+/* Light theme - make icon dark */
+body.light_theme .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0);
+}
+
+/* Hover effect for both themes */
+.hero-social-link:hover .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0.3);
+}
+
+body.dark_theme .hero-social-link:hover .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0.8);
+}
+
+/* Contact section Contra icon - opposite colors */
+.contact-social-link .icon-contra {
+  filter: brightness(0) saturate(100%) invert(1);
+}
+
+/* Light theme - contact icon dark */
+body.light_theme .contact-social-link .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0);
+}
+
+/* Hover effects for contact icon */
+.contact-social-link:hover .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0.8);
+}
+
+body.dark_theme .contact-social-link:hover .icon-contra {
+  filter: brightness(0) saturate(100%) invert(0.3);
+}
+
+
+
+
+
 /*-----------------------------------*\
  * #MEDIA QUERIES
 \*-----------------------------------*/
